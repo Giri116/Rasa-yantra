@@ -153,7 +153,7 @@ def visualize_with_plotly(data):
     fig = make_subplots(rows=1, cols=2,  specs=[[{'type': 'scatterpolar'}, {'type': 'pie'}]])
     fig.add_trace(chart, row=1, col=1)
     fig.add_trace(pie_chart, row=1, col=2)
-    fig.update_layout(title = 'Intensity distribution',width=1000, height=700, paper_bgcolor='rgba(0,0,0,0)', plot_bgcolor='rgba(0,0,0,0)')
+    fig.update_layout(title = 'Intensity distribution',width=1000, height=700, paper_bgcolor='rgba(0,90,0,0)', plot_bgcolor='rgba(0,0,0,0)')
 
     # Convert the figure to JSON
     # chart_json = fig.to_json()
